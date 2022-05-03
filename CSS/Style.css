@@ -41,3 +41,10 @@ nav ul a:hover {
     color :blueviolet;
     background-color: white;
 }
+
+.section {
+    width: 80%;
+    margin: auto;
+
+    background-color: blanchedalmond;
+}
