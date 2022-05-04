@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="../CSS/Style.css">
+    <link rel="stylesheet" href="../CSS/Slider.css">
+    
 </head>
 <body>
     <header class = "container"> 
@@ -270,6 +272,52 @@
 
     </section>
 
+    <script src="../JS/Slider.js"></script>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="../İmage/Antalya-Adrasan-Koyu.webp" style="width: 600px;height: 450px;">
+          <div class="text">Adrasan Koyu</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="../İmage/Saat kulesi.webp" style="width: 600px;height: 450px;">
+          <div class="text">Saat Kulesi</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="../İmage/Hidirlik-Kulesi.jpg.webp" style="width: 600px;height: 450px;">
+          <div class="text">Hıdırlık Kulesi</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="../İmage/falezler.jpg" style="width: 600px;height: 450px;">
+            <div class="text">Antalya Falezler</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="../İmage/Minicity-Antalya.jpg.webp" style="width: 600px;height: 450px;">
+            <div class="text">Minicity-Antalya</div>
+          </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+
+
+      </div>
 
 </body>
 </html>
