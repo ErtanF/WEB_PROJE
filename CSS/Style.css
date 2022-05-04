@@ -71,3 +71,21 @@ section header {
     font-size: 20pt;
 }
 
+section ul {
+    font-size: 18px;
+    list-style-type:circle;
+}
+
+.Miras ul {
+    list-style: none;
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+}
+.Miras ul a {
+    color:rgb(42, 204, 240);
+    text-decoration: none;
+    padding: 12px 24px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 16px;
+}
