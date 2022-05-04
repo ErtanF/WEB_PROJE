@@ -26,6 +26,7 @@ header nav{
 }
 
 nav ul {
+    margin-top: 20px;
     list-style: none;
     display: flex;
     column-gap: 40px;
