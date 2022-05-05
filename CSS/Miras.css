@@ -1,0 +1,32 @@
+
+body{
+    background-image: url(../İmage/images.jpg);
+    background-size: cover;
+}
+
+header h1{
+    text-align: center;
+}
+
+.tarihce {
+    color: white;
+    background-image: url(../İmage/backgraund.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 20px;
+    width: 70%;
+    margin: auto;
+    border: 3px solid plum;
+    border-radius: 18px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.tarihce ul {
+    color: white;
+    list-style: none;
+    
+}
+
