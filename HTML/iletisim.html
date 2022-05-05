@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../CSS/css/all.css">
 
     <link rel="stylesheet" href="../CSS/iletisim.css">
+    <script src="../JS/iletisim.js"></script>
 
 </head>
 <body>
@@ -30,7 +31,7 @@
 
      <div class="iletisim">
          
-         <form action="iletisim.php" method="post">
+         <form name="iletisimForm" id="iletisimForm" action="iletisim.php" onsubmit="KontrolForm()" method="POST">
             
             <div class="formKontrol">
                 <label for="#"> İsim </label>
@@ -57,8 +58,8 @@
                 <textarea name="Mesaj" id="Area" cols="30" rows="5" ></textarea>
             </div><br>
 
-            <input class="butonlar" name="Gonder" type="submit" value="GÖNDER"> <br>
-            <input class="butonlar" type="reset" value="TEMİZLE">
+            <button type="submit" class="butonlar" id="Gonder" > GONDER </button> <br>
+            <button type="reset" class="butonlar" id="temizle" > Temizle </button>
 
          </form>
 
