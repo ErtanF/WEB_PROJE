@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <script src="../JS/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../CSS/css/all.css">
+
+    <link rel="stylesheet" href="../CSS/iletisim.css">
+
+</head>
+<body>
+    
+    <nav class="menu" > 
+        <input type="checkbox" name="MenuBtn" id="MenuBtn">
+        <label for="MenuBtn" class="MenuBtn" > <i class="fa fa-bars" ></i> </label>
+
+        <ul> 
+          <li><a href="Sehrim.html"> Şehrim </a></li> 
+          <li><a href="Hakkında.html"> Hakkımda </a></li>
+          <li><a href="Eğitim.html"> Eğitim Bilgilerim </a></li>
+          <li><a class="active" href="iletisim.html"> İletişim </a></li>
+          <li><a href="İlgiAlanlarim.html">  İlgi Alanlarım </a></li>
+        </ul>
+    </nav>
+
+     <div class="iletisim">
+         
+         <form action="iletisim.php" method="post">
+            
+            <div class="formKontrol">
+                <label for="#"> İsim </label>
+                <input type="text" name="İsim"  />
+            </div>
+
+            <div class="formKontrol">
+                <label for="#"> Soyisim </label>
+                <input type="text" name="Soyisim"  />
+            </div>
+
+            <div class="formKontrol">
+                <label for="#"> Email </label>
+                <input type="email" name="Email" />
+            </div>
+
+            <div class="formKontrol">
+                <label for="#"> Konu </label>
+                <input type="text" name="Konu" />
+            </div> 
+
+            <div class="formKontrol">
+                <label for="#"> Mesaj </label>
+                <textarea name="Mesaj" id="Area" cols="30" rows="5" ></textarea>
+            </div><br>
+
+            <input class="butonlar" name="Gonder" type="submit" value="GÖNDER"> <br>
+            <input class="butonlar" type="reset" value="TEMİZLE">
+
+         </form>
+
+     </div>
+
+</body>
+</html>
