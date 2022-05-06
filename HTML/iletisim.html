@@ -31,11 +31,11 @@
 
      <div class="iletisim">
          
-         <form name="iletisimForm" id="iletisimForm" action="iletisim.php" onsubmit="KontrolForm()" method="POST">
+         <form action="iletisimForm.php" name="iletisimForm" id="iletisimForm"  onsubmit="KontrolForm()" method="POST">
             
             <div class="formKontrol">
                 <label for="#"> İsim </label>
-                <input type="text" name="İsim"  />
+                <input type="text" id="isim" name="İsim"  />
             </div>
 
             <div class="formKontrol">
@@ -58,7 +58,7 @@
                 <textarea name="Mesaj" id="Area" cols="30" rows="5" ></textarea>
             </div><br>
 
-            <button type="submit" class="butonlar" id="Gonder" > GONDER </button> <br>
+            <button type="submit" class="butonlar" name="Gonder" id="Gonder" > GONDER </button> <br>
             <button type="reset" class="butonlar" id="temizle" > Temizle </button>
 
          </form>
