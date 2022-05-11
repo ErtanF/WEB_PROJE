@@ -3,8 +3,17 @@
     padding: 0;
 }
 
+body{
+    box-sizing: border-box;
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 nav{
-    position: fixed;
     height: 80px;
     width: 100%;
     background-color:blueviolet;
@@ -57,7 +66,15 @@ nav ul a:hover {
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
+.col-lg-4 img {
+    width: 300px;
+    height: 225px;
+}
+.col-md-6 img {
+    width: 400px;
+    height: 300px;
 
+}
 
 
 @media (max-width:850px) {
