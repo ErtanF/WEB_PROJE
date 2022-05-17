@@ -23,5 +23,6 @@ if($v1 and $v2 and $v3 and $v4 and $v5){
 } else {
 header("location:iletisim.html");
 }
+echo "<p> <a href='iletisim.html'>&lt;GERİ DÖN&gt;</a></p> ";
 
 ?>
